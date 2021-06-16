@@ -5,7 +5,7 @@ DisplayStrings = (
 "o/brevecomb/obreve",
 "L/commaaccentcomb/Lcommaaccent eon",
 "/nbspace",
-"ABCDEFGHIG/Gcommaaccent A/gravecomb ÀH/Hbar/circumflexcomb/Hcircumflex S/Scommaaccent JKLMNOPQRSTUVWXYZ"
+"ABCDEFGHIG/Gcommaaccent A/gravecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/Abrevehookabove/Abrevegrave/abrevegrave/Abrevegrave ÀH/Hbar/circumflexcomb/Hcircumflex S/Scommaaccent JKLMNOPQRSTUVWXYZ"
 );
 copyright = "Copyright 2004 The RUSerius Project Authors (https://github.com/googlefonts/are-you-serious)";
 customParameters = (
@@ -162,7 +162,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 910;
+value = 925;
 },
 {
 name = winDescent;
@@ -993,7 +993,7 @@ unicode = 1EB6;
 {
 color = 11;
 glyphname = Abrevegrave;
-lastChange = "2021-06-16 04:24:50 +0000";
+lastChange = "2021-06-16 04:36:07 +0000";
 layers = (
 {
 components = (
@@ -1002,7 +1002,6 @@ name = A;
 },
 {
 name = brevecomb_gravecomb;
-transform = "{1, 0, 0, 1, 503, 265}";
 }
 );
 layerId = "5C71BA0D-BC2C-47B0-9323-6F63B3241D58";
@@ -1014,7 +1013,7 @@ unicode = 1EB0;
 {
 color = 11;
 glyphname = Abrevehookabove;
-lastChange = "2021-06-16 04:24:50 +0000";
+lastChange = "2021-06-16 04:37:14 +0000";
 layers = (
 {
 components = (
@@ -1022,8 +1021,9 @@ components = (
 name = A;
 },
 {
+alignment = -1;
 name = brevecomb_hookabovecomb;
-transform = "{1, 0, 0, 1, 494, 381}";
+transform = "{1, 0, 0, 1, 488, 270}";
 }
 );
 layerId = "5C71BA0D-BC2C-47B0-9323-6F63B3241D58";
@@ -1896,7 +1896,7 @@ unicode = 1EA0;
 },
 {
 glyphname = Agrave;
-lastChange = "2021-06-16 04:24:18 +0000";
+lastChange = "2021-06-16 04:32:08 +0000";
 layers = (
 {
 components = (
@@ -1905,7 +1905,6 @@ name = A;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 527, 360}";
 }
 );
 hints = (
@@ -68900,16 +68899,6 @@ glyphname = gravecomb;
 lastChange = "2021-06-16 04:24:18 +0000";
 layers = (
 {
-anchors = (
-{
-name = _top;
-position = "{76, 300}";
-},
-{
-name = top;
-position = "{76, 543}";
-}
-);
 components = (
 {
 name = grave;
