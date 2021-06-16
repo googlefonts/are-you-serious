@@ -3,7 +3,7 @@
 DisplayStrings = (
 "nn/Placeholder no/Placeholder oonn\012noabcdefghnijkolmnopqrsdtuvkwoxo\012yoz\012hugoanamurcielagon/space alarma/space ilumina/space holograma\012/space ä/nbspace a/dieresiscomb/dotaccentcomb/gravecomb/acutecomb/hungarumlautcomb/caroncomb.alt/circumflexcomb/caroncomb/brevecomb/ringcomb/tildecomb/macroncomb/hookabovecomb/dblgravecomb/breveinvertedcomb/commaturnedabovecomb/horncomb/dotbelowcomb/dieresisbelowcomb/commaaccentcomb/cedillacomb/ogonekcomb/brevebelowcomb/macronbelowcomb/strokeshortcomb/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb"
 );
-copyright = "Copyright 2004 The Style Script Project Authors (https://github.com/googlefonts/are-you-serious)";
+copyright = "Copyright 2004 The RUSerius Project Authors (https://github.com/googlefonts/are-you-serious)";
 customParameters = (
 {
 name = licenseURL;
@@ -71040,16 +71040,7 @@ note = NUL;
 );
 instances = (
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = RUSerius;
-},
-{
-name = postscriptFontName;
-value = "RUSerius-Regular";
-}
-);
+interpolationWeight = 400;
 instanceInterpolations = {
 "5C71BA0D-BC2C-47B0-9323-6F63B3241D58" = 1;
 };
