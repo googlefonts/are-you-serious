@@ -1,7 +1,7 @@
 {
 .appVersion = "1342";
 DisplayStrings = (
-"nn/Placeholder no/Placeholder oonn\012noabcdefghnijkolmnopqrsdtuvkwoxo\012yoz\012hugoanamurcielagon/space alarma/space ilumina/space holograma\012/space ä/nbspace a/dieresiscomb/dotaccentcomb/gravecomb/acutecomb/hungarumlautcomb/caroncomb.alt/circumflexcomb/caroncomb/brevecomb/ringcomb/tildecomb/macroncomb/hookabovecomb/dblgravecomb/breveinvertedcomb/commaturnedabovecomb/horncomb/dotbelowcomb/dieresisbelowcomb/commaaccentcomb/cedillacomb/ogonekcomb/brevebelowcomb/macronbelowcomb/strokeshortcomb/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb",
+"nn/Placeholder no/Placeholder oonn\012noabcdefghnijkoClmnopqrsdtuvkwoxo\012yozg/commaaccentcomb/commaturnedabovecomb/gcommaaccent \012hugoanamurcielagon/space alarma/space ilumina/space holograma\012/space ä/nbspace a/dieresiscomb/dotaccentcomb/gravecomb/acutecomb/hungarumlautcomb/caroncomb.alt/circumflexcomb/caroncomb/brevecomb/ringcomb/tildecomb/macroncomb/hookabovecomb/dblgravecomb/breveinvertedcomb/commaturnedabovecomb/horncomb/dotbelowcomb/dieresisbelowcomb/commaaccentcomb/cedillacomb/ogonekcomb/brevebelowcomb/macronbelowcomb/strokeshortcomb/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb",
 "o/brevecomb/obreve",
 "L/commaaccentcomb/Lcommaaccent eon",
 "/nbspace",
@@ -129,6 +129,7 @@ fontMaster = (
 {
 alignmentZones = (
 "{660, 20}",
+"{617, 16}",
 "{300, 20}",
 "{0, -20}",
 "{-310, -20}"
@@ -31511,9 +31512,19 @@ unicode = 0066;
 },
 {
 glyphname = g;
-lastChange = "2021-06-16 03:59:52 +0000";
+lastChange = "2021-06-16 15:38:10 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{172, -320}";
+},
+{
+name = top;
+position = "{237, 418}";
+}
+);
 hints = (
 {
 horizontal = 1;
@@ -31562,7 +31573,7 @@ nodes = (
 "274 468 OFFCURVE",
 "265 457 CURVE SMOOTH",
 "249 439 OFFCURVE",
-"205 435 OFFCURVE",
+"211 436 OFFCURVE",
 "211 406 CURVE SMOOTH",
 "211 405 LINE",
 "189 402 OFFCURVE",
@@ -31579,7 +31590,7 @@ nodes = (
 "206 282 OFFCURVE",
 "218 259 CURVE",
 "215 260 LINE SMOOTH",
-"196 265 OFFCURVE",
+"196 266 OFFCURVE",
 "177 269 OFFCURVE",
 "160 269 CURVE SMOOTH",
 "131 269 OFFCURVE",
@@ -31610,7 +31621,7 @@ nodes = (
 "212 -81 OFFCURVE",
 "212 -81 CURVE",
 "219 -99 OFFCURVE",
-"223 -100 OFFCURVE",
+"223 -101 OFFCURVE",
 "227 -101 CURVE SMOOTH",
 "228 -101 LINE",
 "226 -104 LINE",
@@ -31672,7 +31683,7 @@ nodes = (
 "112 -109 OFFCURVE",
 "117 -115 CURVE",
 "117 -117 LINE SMOOTH",
-"115 -128 OFFCURVE",
+"117 -128 OFFCURVE",
 "111 -137 OFFCURVE",
 "117 -148 CURVE SMOOTH",
 "127 -165 OFFCURVE",
@@ -31683,7 +31694,7 @@ nodes = (
 "58 -173 OFFCURVE",
 "59 -170 CURVE SMOOTH",
 "61 -165 LINE SMOOTH",
-"66 -149 OFFCURVE",
+"67 -149 OFFCURVE",
 "56 -112 OFFCURVE",
 "35 -126 CURVE SMOOTH",
 "17 -138 OFFCURVE",
@@ -31726,7 +31737,7 @@ nodes = (
 "-59 -197 OFFCURVE",
 "-61 -200 CURVE SMOOTH",
 "-64 -204 LINE SMOOTH",
-"-68 -211 OFFCURVE",
+"-69 -210 OFFCURVE",
 "-72 -218 OFFCURVE",
 "-72 -226 CURVE SMOOTH",
 "-72 -235 OFFCURVE",
@@ -31748,11 +31759,11 @@ nodes = (
 "183 -326 OFFCURVE",
 "193 -289 CURVE",
 "215 -294 OFFCURVE",
-"233 -287 OFFCURVE",
+"229 -287 OFFCURVE",
 "229 -260 CURVE SMOOTH",
 "229 -257 LINE",
 "250 -248 OFFCURVE",
-"270 -253 OFFCURVE",
+"266 -253 OFFCURVE",
 "266 -219 CURVE SMOOTH",
 "266 -215 LINE",
 "266 -214 LINE",
@@ -31811,7 +31822,7 @@ nodes = (
 "309 405 OFFCURVE",
 "314 402 CURVE",
 "313 389 OFFCURVE",
-"310 376 OFFCURVE",
+"311 378 OFFCURVE",
 "323 366 CURVE SMOOTH",
 "324 365 LINE",
 "322 361 OFFCURVE",
@@ -31819,7 +31830,7 @@ nodes = (
 "316 355 CURVE",
 "312 357 LINE",
 "303 359 LINE SMOOTH",
-"272 367 OFFCURVE",
+"272 366 OFFCURVE",
 "281 325 OFFCURVE",
 "313 325 CURVE SMOOTH",
 "314 325 OFFCURVE",
@@ -31910,7 +31921,7 @@ unicode = 0067;
 {
 color = 11;
 glyphname = gbreve;
-lastChange = "2021-06-16 03:16:07 +0000";
+lastChange = "2021-06-16 16:17:25 +0000";
 layers = (
 {
 components = (
@@ -31919,7 +31930,7 @@ name = g;
 },
 {
 name = brevecomb;
-transform = "{1, 0, 0, 1, 154, -186}";
+transform = "{1, 0, 0, 1, 128, 118}";
 }
 );
 layerId = "5C71BA0D-BC2C-47B0-9323-6F63B3241D58";
@@ -31973,7 +31984,7 @@ unicode = 011D;
 {
 color = 11;
 glyphname = gcommaaccent;
-lastChange = "2021-06-16 03:16:07 +0000";
+lastChange = "2021-06-16 15:38:15 +0000";
 layers = (
 {
 components = (
@@ -31981,8 +31992,8 @@ components = (
 name = g;
 },
 {
-name = commaaccentcomb;
-transform = "{-1, 0, 0, -1, 670, 499}";
+name = commaturnedabovecomb;
+transform = "{1, 0, 0, 1, 190, 118}";
 }
 );
 layerId = "5C71BA0D-BC2C-47B0-9323-6F63B3241D58";
@@ -35148,7 +35159,7 @@ unicode = 0142;
 },
 {
 glyphname = m;
-lastChange = "2021-06-16 04:00:41 +0000";
+lastChange = "2021-06-16 15:34:36 +0000";
 layers = (
 {
 guideLines = (
@@ -35434,21 +35445,6 @@ nodes = (
 "530 121 OFFCURVE",
 "542 164 OFFCURVE",
 "542 197 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"335 215 LINE",
-"334 214 OFFCURVE",
-"333 213 OFFCURVE",
-"333 212 CURVE SMOOTH",
-"333 215 OFFCURVE",
-"332 219 OFFCURVE",
-"331 222 CURVE",
-"333 220 OFFCURVE",
-"334 218 OFFCURVE",
-"335 216 CURVE"
 );
 }
 );
@@ -36271,7 +36267,7 @@ unicode = 00F1;
 },
 {
 glyphname = o;
-lastChange = "2021-06-16 04:03:17 +0000";
+lastChange = "2021-06-16 15:28:26 +0000";
 layers = (
 {
 anchors = (
@@ -36289,7 +36285,7 @@ position = "{308, 10}";
 },
 {
 name = top;
-position = "{191, 250}";
+position = "{171, 300}";
 },
 {
 name = topright;
@@ -36628,7 +36624,7 @@ unicode = 00F3;
 {
 color = 11;
 glyphname = obreve;
-lastChange = "2021-06-16 04:03:17 +0000";
+lastChange = "2021-06-16 15:36:40 +0000";
 layers = (
 {
 components = (
@@ -36637,7 +36633,7 @@ name = o;
 },
 {
 name = brevecomb;
-transform = "{1, 0, 0, 1, 82, -50}";
+transform = "{1, 0, 0, 1, 62, 0}";
 }
 );
 layerId = "5C71BA0D-BC2C-47B0-9323-6F63B3241D58";
@@ -69309,9 +69305,19 @@ unicode = 0311;
 {
 color = 11;
 glyphname = commaturnedabovecomb;
-lastChange = "2021-06-15 19:38:17 +0000";
+lastChange = "2021-06-16 15:37:44 +0000";
 layers = (
 {
+anchors = (
+{
+name = _top;
+position = "{47, 300}";
+},
+{
+name = top;
+position = "{47, 583}";
+}
+);
 components = (
 {
 name = comma;
