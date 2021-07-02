@@ -1,5 +1,5 @@
 {
-.appVersion = "1356";
+.appVersion = "1342";
 DisplayStrings = (
 "/abreve/abrevedotbelow/ebreve/gbreve/ibreve/obreve/ubreve/tilde/tildecomb.case/brevecomb_tildecomb/circumflexcomb_tildecomb",
 "/commaaccentcomb",
@@ -70,7 +70,11 @@ A,
 "U/Uhorn/Uhorntilde",
 "/circumflexcomb/circumflexcomb_tildecomb/ecircumflextilde",
 "I/Ihookabove",
-"/ogonekcomb/eogonek"
+"/ogonekcomb/eogonek",
+"G/commaaccentcomb/Gcommaaccent",
+"/commaaccentcomb/Gcommaaccent",
+$123,
+"/commaaccentcomb G/Gcommaaccent"
 );
 classes = (
 {
@@ -232,11 +236,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 925;
+value = 931;
 },
 {
 name = winDescent;
-value = 420;
+value = 601;
 },
 {
 name = strikeoutPosition;
@@ -4173,13 +4177,13 @@ unicode = 0046;
 },
 {
 glyphname = G;
-lastChange = "2021-06-24 05:27:23 +0000";
+lastChange = "2021-07-02 12:58:41 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{197, -413}";
+position = "{197, -404}";
 },
 {
 name = top;
@@ -4405,7 +4409,7 @@ nodes = (
 "53 -296 OFFCURVE",
 "53 -272 CURVE",
 "58 -264 LINE SMOOTH",
-"65 -254 OFFCURVE",
+"64 -254 OFFCURVE",
 "67 -245 OFFCURVE",
 "67 -237 CURVE SMOOTH",
 "67 -222 OFFCURVE",
@@ -4558,7 +4562,7 @@ unicode = 011C;
 {
 color = 11;
 glyphname = Gcommaaccent;
-lastChange = "2021-06-23 08:03:12 +0000";
+lastChange = "2021-07-02 12:58:41 +0000";
 layers = (
 {
 components = (
@@ -4567,7 +4571,7 @@ name = G;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 131, -413}";
+transform = "{1, 0, 0, 1, 131, -404}";
 }
 );
 layerId = "5C71BA0D-BC2C-47B0-9323-6F63B3241D58";
@@ -54052,7 +54056,7 @@ unicode = 0324;
 {
 color = 0;
 glyphname = commaaccentcomb;
-lastChange = "2021-06-24 13:36:27 +0000";
+lastChange = "2021-07-02 12:59:28 +0000";
 layers = (
 {
 anchors = (
@@ -54062,44 +54066,104 @@ position = "{66, 0}";
 },
 {
 name = bottom;
-position = "{48, -252}";
+position = "{48, -243}";
 }
 );
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"22 -196 OFFCURVE",
+"24 -197 OFFCURVE",
+"27 -197 CURVE SMOOTH",
+"30 -197 OFFCURVE",
+"35 -196 OFFCURVE",
+"42 -193 CURVE SMOOTH",
+"66 -183 OFFCURVE",
+"88 -161 OFFCURVE",
+"88 -142 CURVE SMOOTH",
+"88 -138 OFFCURVE",
+"87 -134 OFFCURVE",
+"84 -130 CURVE",
+"92 -122 OFFCURVE",
+"96 -111 OFFCURVE",
+"96 -101 CURVE SMOOTH",
+"96 -95 OFFCURVE",
+"94 -89 OFFCURVE",
+"91 -85 CURVE",
+"91 -79 OFFCURVE",
+"93 -72 OFFCURVE",
+"93 -67 CURVE SMOOTH",
+"93 -63 OFFCURVE",
+"92 -60 OFFCURVE",
+"88 -60 CURVE",
+"83 -53 OFFCURVE",
+"77 -53 OFFCURVE",
+"66 -53 CURVE SMOOTH",
+"43 -53 OFFCURVE",
+"35 -77 OFFCURVE",
+"35 -90 CURVE SMOOTH",
+"35 -107 OFFCURVE",
+"37 -123 OFFCURVE",
+"52 -126 CURVE",
+"52 -155 OFFCURVE",
+"42 -172 OFFCURVE",
+"29 -183 CURVE SMOOTH",
+"23 -188 OFFCURVE",
+"20 -191 OFFCURVE",
+"20 -194 CURVE SMOOTH",
+"20 -194 OFFCURVE",
+"21 -195 OFFCURVE",
+"21 -195 CURVE SMOOTH"
+);
+}
+);
+};
 layerId = "5C71BA0D-BC2C-47B0-9323-6F63B3241D58";
 paths = (
 {
 closed = 1;
 nodes = (
-"23 -206 OFFCURVE",
-"30 -207 OFFCURVE",
-"42 -202 CURVE SMOOTH",
-"72 -190 OFFCURVE",
-"99 -158 OFFCURVE",
-"84 -139 CURVE",
-"97 -126 OFFCURVE",
-"100 -105 OFFCURVE",
-"91 -94 CURVE",
-"91 -84 OFFCURVE",
-"98 -70 OFFCURVE",
-"88 -69 CURVE",
-"83 -62 OFFCURVE",
-"77 -62 OFFCURVE",
-"66 -62 CURVE SMOOTH",
-"43 -62 OFFCURVE",
-"35 -86 OFFCURVE",
-"35 -99 CURVE SMOOTH",
-"35 -116 OFFCURVE",
-"37 -132 OFFCURVE",
-"52 -135 CURVE",
-"52 -164 OFFCURVE",
-"42 -181 OFFCURVE",
-"29 -192 CURVE SMOOTH",
 "23 -197 OFFCURVE",
-"20 -200 OFFCURVE",
-"20 -203 CURVE SMOOTH",
-"20 -203 OFFCURVE",
-"21 -204 OFFCURVE",
-"21 -204 CURVE SMOOTH"
+"27 -197 CURVE SMOOTH",
+"30 -197 OFFCURVE",
+"35 -196 OFFCURVE",
+"42 -193 CURVE SMOOTH",
+"66 -183 OFFCURVE",
+"88 -161 OFFCURVE",
+"88 -142 CURVE SMOOTH",
+"88 -138 OFFCURVE",
+"87 -134 OFFCURVE",
+"84 -130 CURVE",
+"92 -122 OFFCURVE",
+"96 -111 OFFCURVE",
+"96 -101 CURVE SMOOTH",
+"96 -95 OFFCURVE",
+"94 -89 OFFCURVE",
+"91 -85 CURVE",
+"91 -79 OFFCURVE",
+"93 -72 OFFCURVE",
+"93 -67 CURVE SMOOTH",
+"93 -63 OFFCURVE",
+"92 -60 OFFCURVE",
+"88 -60 CURVE",
+"83 -53 OFFCURVE",
+"77 -53 OFFCURVE",
+"66 -53 CURVE SMOOTH",
+"43 -53 OFFCURVE",
+"35 -77 OFFCURVE",
+"35 -90 CURVE SMOOTH",
+"35 -107 OFFCURVE",
+"37 -123 OFFCURVE",
+"52 -126 CURVE",
+"52 -155 OFFCURVE",
+"42 -172 OFFCURVE",
+"29 -183 CURVE SMOOTH",
+"23 -188 OFFCURVE",
+"20 -191 OFFCURVE",
+"20 -193 CURVE SMOOTH",
+"20 -196 OFFCURVE"
 );
 }
 );
@@ -56265,5 +56329,5 @@ manufacturer = "Robert E. Leuschke";
 manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 3;
+versionMinor = 10;
 }
