@@ -1,5 +1,5 @@
 {
-.appVersion = "1342";
+.appVersion = "1352";
 DisplayStrings = (
 "/abreve/abrevedotbelow/ebreve/gbreve/ibreve/obreve/ubreve/tilde/tildecomb.case/brevecomb_tildecomb/circumflexcomb_tildecomb",
 "/commaaccentcomb",
@@ -83,7 +83,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright 2004 The RUSerius Project Authors (https://github.com/googlefonts/are-you-serious)";
+copyright = "Copyright 2004 The RU Serius Project Authors (https://github.com/googlefonts/are-you-serious)";
 customParameters = (
 {
 name = licenseURL;
@@ -148,7 +148,7 @@ Tag = wght;
 date = "2021-02-17 05:58:38 +0000";
 designer = "Robert E. Leuschke";
 designerURL = www.typesetit.com;
-familyName = RUSerius;
+familyName = "RU Serius";
 featurePrefixes = (
 {
 automatic = 1;
@@ -56329,5 +56329,5 @@ manufacturer = "Robert E. Leuschke";
 manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 10;
+versionMinor = 11;
 }
