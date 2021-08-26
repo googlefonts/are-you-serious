@@ -1,5 +1,5 @@
 sources:
-  - RUSerius.glyphs
-familyName: "RU Serius"
+  - AreYouSerious.glyphs
+familyName: "Are You Serious"
 buildVariable: false
-# autohintTTF: false
+autohintTTF: false

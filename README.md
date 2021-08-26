@@ -1,4 +1,6 @@
-RUSerius doesn't take itself seriously at all. This is a fun playful font with a slightly latin flavor.
+# Are You Serious
+
+Are You Serious doesn't take itself seriously at all. This is a fun playful font with a slightly latin flavor.
 
 ## Building the Fonts
 
